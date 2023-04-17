@@ -24,6 +24,7 @@ const { NotImplementedError } = require("../extensions/index.js");
  */
 function removeKFromList(/* l, k */) {
   const deleteNumber = l.filter((number) => number !== k);
+  console.log(deleteNumber);
   return deleteNumber;
 }
 
